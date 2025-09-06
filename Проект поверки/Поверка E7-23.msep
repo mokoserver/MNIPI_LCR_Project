@@ -1,0 +1,19 @@
+{
+"name":"Поверка E7-23",
+"autosave":"true",
+"scripts":[
+{"file":"1 Регистрация.py","necessary":"false"},
+{"file":"2 Настройка рабочего места.py","necessary":"false"},
+{"file":"3 Поверка Е7-23.py","necessary":"false"},
+{"file":"4 Создание отчета.py","necessary":"false"}
+],
+"libraries":[
+{"file":"MFRT.py"},
+{"file":"MGPH.py"},
+{"file":"MOKO.py"},
+{"file":"MOSC.py"}
+],
+"templates":[
+{"file":"Протокол поверки Е7-23.docx"}
+]
+}

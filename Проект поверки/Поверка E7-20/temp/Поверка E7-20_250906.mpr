@@ -1,0 +1,32 @@
+{
+"scripts":
+[
+{"name":"1 Регистрация","smark":"canceled"},
+{"name":"2 Настройка рабочего места","smark":"canceled"},
+{"name":"3 Поверка Е7-20","smark":"passed"},
+{"name":"4 Создание отчета","smark":"canceled"}
+],
+"report":
+[
+
+],
+"tree":
+[
+{"line":"0","name":"Поверка E7-20","type":"project","project":"","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"1","name":"1 Регистрация","type":"script","project":"Поверка E7-20","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"2","name":"Настройка параметров","type":"region","project":"Поверка E7-20","script":"1 Регистрация","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"3","name":"Ввод параметров","type":"hesh","project":"Поверка E7-20","script":"1 Регистрация","region":"Настройка параметров","status":"empty","pcode":"3","pcount":"2"},
+{"line":"4","name":"2 Настройка рабочего места","type":"script","project":"Поверка E7-20","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"5","name":"Инициализация","type":"region","project":"Поверка E7-20","script":"2 Настройка рабочего места","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"6","name":"Настройка параметров","type":"region","project":"Поверка E7-20","script":"2 Настройка рабочего места","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"7","name":"3 Поверка Е7-20","type":"script","project":"Поверка E7-20","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"8","name":"Определение погрешности \nустановки рабочей частоты","type":"region","project":"Поверка E7-20","script":"3 Поверка Е7-20","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"9","name":"Измерение","type":"hesh","project":"Поверка E7-20","script":"3 Поверка Е7-20","region":"Определение погрешности \nустановки рабочей частоты","status":"passed","pcode":"5","pcount":"2"},
+{"line":"10","name":"Определение основной \nпогрешности измерения \nпараметров Rp, Rs, Cp, Ls","type":"region","project":"Поверка E7-20","script":"3 Поверка Е7-20","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"11","name":"Измерение","type":"hesh","project":"Поверка E7-20","script":"3 Поверка Е7-20","region":"Определение основной \nпогрешности измерения \nпараметров Rp, Rs, Cp, Ls","status":"empty","pcode":"3","pcount":"2"},
+{"line":"12","name":"Определение основной \nпогрешности измерения \nпараметров D, Q","type":"region","project":"Поверка E7-20","script":"3 Поверка Е7-20","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"13","name":"Измерение","type":"hesh","project":"Поверка E7-20","script":"3 Поверка Е7-20","region":"Определение основной \nпогрешности измерения \nпараметров D, Q","status":"empty","pcode":"3","pcount":"2"},
+{"line":"14","name":"4 Создание отчета","type":"script","project":"Поверка E7-20","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"15","name":"Формирование отчета:","type":"region","project":"Поверка E7-20","script":"4 Создание отчета","region":"","status":"empty","pcode":"0","pcount":"2"}
+]
+}

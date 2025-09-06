@@ -1,0 +1,45 @@
+{
+"scripts":
+[
+{"name":"1 Регистрация","smark":"passed"},
+{"name":"2 Настройка рабочего места","smark":"passed"},
+{"name":"3.1 Поверка Е7-20","smark":""},
+{"name":"3.2 Поверка Е7-21","smark":""},
+{"name":"3.3 Поверка Е7-23","smark":""},
+{"name":"3.4 Поверка Е7-25","smark":""},
+{"name":"3.5 Поверка Е7-28","smark":""},
+{"name":"3.6 Поверка Е7-29","smark":""},
+{"name":"3.7 Поверка Е7-30","smark":""},
+{"name":"4 Создание отчета","smark":""}
+],
+"report":
+[
+
+],
+"tree":
+[
+{"line":"0","name":"Поверка LRC","type":"project","project":"","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"1","name":"1 Регистрация","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"2","name":"Настройка параметров","type":"region","project":"Поверка LRC","script":"1 Регистрация","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"3","name":"Ввод параметров","type":"hesh","project":"Поверка LRC","script":"1 Регистрация","region":"Настройка параметров","status":"passed","pcode":"5","pcount":"2"},
+{"line":"4","name":"2 Настройка рабочего места","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"5","name":"Инициализация","type":"region","project":"Поверка LRC","script":"2 Настройка рабочего места","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"6","name":"Настройка параметров","type":"region","project":"Поверка LRC","script":"2 Настройка рабочего места","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"7","name":"3.1 Поверка Е7-20","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"8","name":"Ход измерений","type":"region","project":"Поверка LRC","script":"3.1 Поверка Е7-20","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"9","name":"3.2 Поверка Е7-21","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"10","name":"Ход измерений","type":"region","project":"Поверка LRC","script":"3.2 Поверка Е7-21","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"11","name":"3.3 Поверка Е7-23","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"12","name":"Ход измерений","type":"region","project":"Поверка LRC","script":"3.3 Поверка Е7-23","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"13","name":"3.4 Поверка Е7-25","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"14","name":"Ход измерений","type":"region","project":"Поверка LRC","script":"3.4 Поверка Е7-25","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"15","name":"3.5 Поверка Е7-28","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"16","name":"Ход измерений","type":"region","project":"Поверка LRC","script":"3.5 Поверка Е7-28","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"17","name":"3.6 Поверка Е7-29","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"18","name":"Ход измерений","type":"region","project":"Поверка LRC","script":"3.6 Поверка Е7-29","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"19","name":"3.7 Поверка Е7-30","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"20","name":"Ход измерений","type":"region","project":"Поверка LRC","script":"3.7 Поверка Е7-30","region":"","status":"empty","pcode":"0","pcount":"2"},
+{"line":"21","name":"4 Создание отчета","type":"script","project":"Поверка LRC","script":"","region":"","status":"empty","pcode":"0","pcount":"1"},
+{"line":"22","name":"Формирование отчета:","type":"region","project":"Поверка LRC","script":"4 Создание отчета","region":"","status":"empty","pcode":"0","pcount":"2"}
+]
+}
